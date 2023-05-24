@@ -3,8 +3,8 @@ import Welcome from './assets/pages/Welcome'
 import AboutMe from './assets/pages/AboutMe'
 import Projects from './assets/pages/Projects'
 import Skills from './assets/pages/Skills'
-import Nav from './assets/pages/Nav'
-
+import Nav from './assets/Nav'
+import Footer from './assets/Footer'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -16,6 +16,7 @@ function App() {
         <AboutMe/>
         <Projects/>
         <Skills/>
+        <Footer/>
       </div>
     
     </>
