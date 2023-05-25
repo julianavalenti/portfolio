@@ -1,4 +1,5 @@
 import React from 'react';
+import NameTypingComponent from './NameTypingComponent';
 
 const Welcome = () => {
   return (
@@ -8,9 +9,8 @@ const Welcome = () => {
           <div className="ajustador organizador">
             <div className="apresentacao">
               <p className="descricao">
-                Hello, I am  <br />
-                <span className="meu-nome">Juliana Valenti.</span>
-                <br />
+                Hello, I am <br />
+                <NameTypingComponent /> {/* Render NameTypingComponent here */}
                 Software Engineer
               </p>
               <br />
@@ -24,11 +24,12 @@ const Welcome = () => {
                 </a>
               </div>
             </div>
-            <div className="avatar">
+            <div className="hover-rotate">
               <img
-                className="avatar2"
-                src="/avatar.JPG" 
-                alt="Juliana Valenti photo" width="200px"
+                className="hover-rotate"
+                src="/me.png"
+                alt="Juliana Valenti photo"
+                width="200px"
               />
             </div>
           </div>

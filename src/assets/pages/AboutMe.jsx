@@ -3,9 +3,9 @@ import React from 'react';
 const AboutMe = () => {
   return (
     <section id="sobre-mim">
-      <div className="centralizador">
-        <div className="ajustador-2">
-          <div className="avatar">
+      
+        <div className="">
+          <div className="">
             <img
               className="desenho-bg"
               src="/map.gif"
@@ -25,7 +25,7 @@ const AboutMe = () => {
             </p>
           </div>
         </div>
-      </div>
+     
     </section>
   );
 };
